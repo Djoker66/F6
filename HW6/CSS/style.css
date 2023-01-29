@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+.logo img{
+    height: 25px;
+    width: 205px;
+}
+
+.search a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: .1em;
+    font-family: Montserrat,sans-serif;
+    color: #1B1b1b;
+    padding: 0 29px;
+    cursor: pointer;
+}
+.search i{
+    padding: 0 8px;
+    cursor: pointer;
+}
+.search a:hover{
+    text-decoration: underline;  
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    width: 100%;
+    height: 30rem;
+    background-image: url(https://top-fon.com/uploads/posts/2022-09/1663598187_13-top-fon-com-p-tyulpani-na-serom-fone-foto-17.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    padding-left: 6rem;
+}
+.text h1{
+    font-family: "Playfair Display";
+    width: 347px;
+    height: 103px;
+    line-height: 51px;
+    font-weight: 400;
+    font-size: 42px;
+    padding-bottom: 7rem;
+}
+.text p .txt{
+    font-family: Lora;
+    color: #626060;
+    width: 429px;
+    height: 89px;
+    line-height: 29px;
+    font-weight: 400;
+    font-size: 17px;
+    padding-bottom: 7rem;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.categories a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: .1em;
+    font-family: Montserrat,sans-serif;
+    color: #1B1b1b;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.categories a:hover{
+    color: #f34f3f;
+}
+
+.all-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.box{
+    width: 23%;
+}
+
+.box .img img{
+    width: 100%;
+    vertical-align: bottom;
+    height: 380px;
+}
+
+.box h4{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: .1em;
+    font-family: Montserrat,sans-serif;
+    color: #1B1b1b;
+    cursor: pointer;
+    padding-top: 1rem;
+}
+
+.box p{
+
+    font-family: Montserrat,sans-serif;
+    color: #afafaf;
+    font-size: 12px;
+    padding-left: 3rem;
+    padding-bottom: 2rem ;
+
+}
